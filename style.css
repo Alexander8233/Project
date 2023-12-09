@@ -1,0 +1,302 @@
+@font-face {
+  font-family: 'Work Sans';
+  font-weight: 400;
+  src: url('WorkSans-Italic-VariableFont_wght.ttf');
+}
+@font-face {
+  font-family: 'WorkSans-Bold';
+  font-weight: 700;
+  src: url('WorkSans-Bold.ttf');
+}
+@font-face {
+  font-family: 'WorkSans-VariableFont_wght';
+  font-weight: 600;
+  src: url('WorkSans-VariableFont_wght.ttf');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  background-color: rgb(244, 232, 247);
+  height: 800px;
+}
+.image-background {
+  background-image: url('background-pattern-desktop.png');
+  height: 320px;
+  margin: 5px;
+  display: flex;
+}
+
+.app {
+  display: flex;
+  justify-items: center;
+  height: 100vh;
+  justify-content: center;
+  width: 100%;
+}
+
+.container {
+  display: grid;
+  background-color: rgb(243, 241, 241);
+  width: 470px;
+  top: 100px;
+  position: relative;
+  padding: 20px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  border: 0px solid;
+  box-shadow: 0px 25px 25px 25px hsla(276, 31%, 67%, 0.082);
+}
+.icon-headed {
+  position: relative;
+  height: 30px;
+}
+.skills {
+  display: flex;
+  gap: 15px;
+  justify-items: center;
+  align-items: center;
+  position: relative;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: 'WorkSans-Bold';
+  color: rgb(54, 18, 61);
+}
+.container-head {
+  display: grid;
+  gap: 30px;
+  justify-items: center;
+  align-items: center;
+  position: relative;
+  top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'WorkSans-VariableFont_wght';
+  color: rgb(54, 18, 61);
+}
+
+
+
+hr {
+  position: relative;
+  top: 1px;
+  display: none;
+  border: none;
+  margin: 5px;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.007);
+}
+.container-project {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'WorkSans-VariableFont_wght';
+  color: rgb(54, 18, 61);
+}
+
+.png {
+  flex-wrap: 1;
+}
+
+
+@media only screen and (min-width: 375px) {
+  body {
+    font-size: 14px;
+    background-color: rgb(244, 232, 247);
+    height: 700px;
+    margin: 0;
+  }
+  .image-background {
+    background-image: url('background-pattern-mobile.png');
+    height: 232px;
+    position: relative;
+  }
+
+  .container {
+    background-color: rgb(243, 241, 241);
+    width: 300px;
+    height: 550px;
+    position: relative;
+    border-radius: 10px;
+    box-sizing: border-box;
+    align-items: center;
+    box-shadow: 0px 25px 25px 25px hsla(276, 31%, 67%, 0.082);
+  }
+  .minus {
+    margin: 10px;
+    left: 5px;
+    position: relative;
+    height: 25px;
+    vertical-align: top;
+  }
+  .container-head {
+    display: flex;
+    margin: 0;
+    position: relative;
+    top: 10px;
+    left: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'WorkSans-VariableFont_wght';
+    color: rgb(54, 18, 61);
+  }
+  .container-front {
+    position: relative;
+    margin: 0;
+    left: 5px;
+    display: flex;
+    vertical-align: top;
+    color: rgba(54, 18, 61, 0.322);
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'WorkSans-VariableFont_wght';
+  }
+  hr {
+    position: relative;
+    margin: 30px;
+    display: block;
+    border: none;
+    margin: 5px;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.055);
+  }
+  
+
+  
+}
+
+@media only screen and (min-width: 1024px) {
+  .image-background {
+    background-image: url('background-pattern-desktop.png');
+    height: 320px;
+    margin: 0px;
+  }
+
+  .container {
+    display: grid;
+    background-color: rgb(243, 241, 241);
+    width: 470px;
+    height: 450px;
+    top: 150px;
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 0px solid;
+    box-shadow: 0px 25px 25px 25px hsla(276, 31%, 67%, 0.082);
+  }
+  .icon-headed {
+    position: relative;
+    right: 15px;
+    margin: 0px;
+    top: 0px;
+    padding: 0px;
+    height: 30px;
+  }
+  .skills {
+    display: grid;
+    display: flex;
+    gap: 8px;
+    position: relative;
+    left: 10px;
+    justify-items: center;
+    align-items: center;
+    right: 60px;
+    
+    margin: 10px;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'WorkSans-Bold';
+    color: rgb(54, 18, 61);
+  }
+  .container-head {
+    display: flex;
+    margin: 0;
+    position: relative;
+    top: 10px;
+    left: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'WorkSans-VariableFont_wght';
+    color: rgb(54, 18, 61);
+  }
+  hr {
+    display: none;
+  }
+  .container-front {
+    position: relative;
+    left: 5px;
+    display: flex;
+    top: 5px;
+    margin: 0;
+    color: rgba(54, 18, 61, 0.322);
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'WorkSans-VariableFont_wght';
+  }
+ 
+}
+@media only screen and (min-width: 1440px) {
+  .image-background {
+    background-image: url('background-pattern-desktop.png');
+    height: 320px;
+    margin: 0px;
+  }
+
+  .container {
+    display: grid;
+    background-color: rgb(243, 241, 241);
+    width: 470px;
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 0px solid;
+    box-shadow: 0px 25px 25px 25px hsla(276, 31%, 67%, 0.082);
+  }
+  .icon-headed {
+    position: relative;
+    height: 35px;
+    top: 5px;
+  }
+  .skills {
+    display: grid;
+    display: flex;
+    gap: 8px;
+    position: relative;
+    justify-items: center;
+    right: 60px;
+    align-items: flex-start;
+    margin: 10px;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'WorkSans-Bold';
+    color: rgb(54, 18, 61);
+  }
+  .container-head {
+    display: flex;
+    margin: 0;
+    position: relative;
+    top: 10px;
+    left: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'WorkSans-VariableFont_wght';
+    color: rgb(54, 18, 61);
+  }
+  .container-front {
+    position: relative;
+    left: 5px;
+    display: flex;
+    top: 5px;
+    margin: 0;
+    color: rgba(54, 18, 61, 0.322);
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'WorkSans-VariableFont_wght';
+  }
+  
+}
